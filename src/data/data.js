@@ -150,23 +150,37 @@ export const projects = [
     githubUrl: "https://github.com",
   },
   {
-    title: "Crypto Trading Bot",
+    title: "German Housing Market Analysis & Forecasting",
     description:
-      "Automated crypto trading bot with ML strategies, portfolio optimization, and risk management.",
-    technologies: ["Python", "TensorFlow", "Django", "Redis", "PostgreSQL"],
+      "Analyzed historical housing data from major German cities to uncover trends in house prices, rental rates, vacancy rates, and rental demand. Built a predictive model using linear regression to forecast average house prices for the years 2025, 2030, and 2035.",
+    technologies: [
+      "Python",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib & Seaborn",
+    ],
     image:
-      "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/vector-1741055269272-f30d1e737eb9?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl:
+      "https://github.com/MokabbirMisho/German-Housing-Market-Analysis-Forecasting",
   },
   {
-    title: "AI Content Generator",
+    title: "Business Performance Dashboard – Data Analytics",
     description:
-      "GPT-powered tool that generates blog posts, social media content, and marketing copy.",
-    technologies: ["React", "OpenAI API", "Node.js", "MongoDB", "AWS"],
+      "Developed an interactive business intelligence dashboard to analyze and forecast company performance across Sales, Marketing, Finance, and Supply Chain, enabling data-driven decisions through KPI tracking and predictive insights.",
+    technologies: [
+      "Power BI",
+      "Microsoft Excel",
+      "MySQL",
+      "Statistics",
+      "Data Visualization",
+    ],
     image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-    liveUrl: "https://example.com",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    liveUrl:
+      "https://app.powerbi.com/view?r=eyJrIjoiYjI0ZTEzNjUtZmI1Ni00YzVkLWFhOGMtMmZiMmQ0NWNhM2Y1IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9",
     githubUrl: "https://github.com",
   },
 ];
