@@ -68,3 +68,17 @@ npm install
 npm run dev
 
 ```
+
+### Deployment
+
+```bash
+npm run build
+
+
+```
+
+```bash
+npm run deploy
+
+
+```
