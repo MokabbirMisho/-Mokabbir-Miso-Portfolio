@@ -1,12 +1,69 @@
-# React + Vite
+<h1 align="center">🧑‍💻 Mokabbir Miso – Developer Portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A responsive, modern personal portfolio website built with <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Vite</strong>. Designed to showcase skills, projects, and experience with elegance and performance.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="./src/assets/preview.png" alt="Portfolio Preview" width="100%" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [mokabbir.dev](https://your-live-url.com) &nbsp;|&nbsp; 🔗 [View Projects](#projects)
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React (Functional Components + Hooks)
+- 🎨 Tailwind CSS (Utility-first styling)
+- ⚡ Vite (Blazing fast dev & build)
+- 🌗 Dark Mode (toggle support)
+- 🧩 Framer Motion / AOS (optional animations)
+- 📬 EmailJS / Formspree (contact handling)
+
+---
+
+## 🖼 Features
+
+- Fully responsive (Mobile, Tablet, Desktop)
+- Modular and maintainable component structure
+- Animated scroll, hover, and CTA transitions
+- Data-driven sections (Skills, Projects, Experience)
+- Clean UX with semantic HTML
+- Signature logo integration
+- Dark mode support
+
+---
+
+## 🧾 Sections Overview
+
+| Section        | Description                                              |
+| -------------- | -------------------------------------------------------- |
+| **Hero**       | Introduction, tagline, social links, and image           |
+| **Skills**     | Categorized technologies with tag design                 |
+| **Projects**   | Project cards with GitHub and live demo links            |
+| **Experience** | Career timeline with company roles                       |
+| **Education**  | Degrees, institutions, and coursework                    |
+| **Contact**    | Contact form with validation and optional submission API |
+
+---
+
+## 🛠 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/portfolio-site.git
+
+# Navigate to project
+cd portfolio-site
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
