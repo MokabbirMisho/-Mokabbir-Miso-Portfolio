@@ -55,3 +55,12 @@
 git clone https://github.com/mokabbirdev/portfolio-site.git
 cd portfolio-site
 ```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+
+```
