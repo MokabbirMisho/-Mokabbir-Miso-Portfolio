@@ -1,4 +1,4 @@
-<h1 align="center">🧑‍💻 Mokabbir Miso – Developer Portfolio</h1>
+<h1 align="center">🧑‍💻 Mokabbir Miso – Portfolio</h1>
 
 <p align="center">
   A responsive, modern personal portfolio website built with <strong>React</strong>, <strong>Tailwind CSS</strong>. Designed to showcase skills, projects, and experience with elegance and performance.
