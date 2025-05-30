@@ -1,33 +1,21 @@
 <h1 align="center">🧑‍💻 Mokabbir Miso – Developer Portfolio</h1>
 
 <p align="center">
-  A responsive, modern personal portfolio website built with <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Vite</strong>. Designed to showcase skills, projects, and experience with elegance and performance.
-</p>
-
-<p align="center">
-  <img src="./src/assets/preview.png" alt="Portfolio Preview" width="100%" />
+  A responsive, modern personal portfolio website built with <strong>React</strong>, <strong>Tailwind CSS</strong>. Designed to showcase skills, projects, and experience with elegance and performance.
 </p>
 
 ---
 
-## 🚀 Live Demo
+## Tech Stack
 
-👉 [mokabbir.dev](https://your-live-url.com) &nbsp;|&nbsp; 🔗 [View Projects](#projects)
-
----
-
-## 🧰 Tech Stack
-
-- ⚛️ React (Functional Components + Hooks)
-- 🎨 Tailwind CSS (Utility-first styling)
-- ⚡ Vite (Blazing fast dev & build)
-- 🌗 Dark Mode (toggle support)
-- 🧩 Framer Motion / AOS (optional animations)
-- 📬 EmailJS / Formspree (contact handling)
+- React (Functional Components + Hooks)
+- Tailwind CSS (Utility-first styling)
+- Framer Motion / AOS (optional animations)
+- EmailJS / Formspree (contact handling)
 
 ---
 
-## 🖼 Features
+## Features
 
 - Fully responsive (Mobile, Tablet, Desktop)
 - Modular and maintainable component structure
@@ -35,11 +23,10 @@
 - Data-driven sections (Skills, Projects, Experience)
 - Clean UX with semantic HTML
 - Signature logo integration
-- Dark mode support
 
 ---
 
-## 🧾 Sections Overview
+## Sections Overview
 
 | Section        | Description                                              |
 | -------------- | -------------------------------------------------------- |
@@ -52,18 +39,19 @@
 
 ---
 
-## 🛠 Installation
+## Installation
+
+### Prerequisites
+
+- Node.js (v16 or above recommended)
+- npm
+- Git
+
+---
+
+### Clone the Repository
 
 ```bash
-# Clone the repo
-git clone https://github.com/your-username/portfolio-site.git
-
-# Navigate to project
+git clone https://github.com/mokabbirdev/portfolio-site.git
 cd portfolio-site
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
 ```
