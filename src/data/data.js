@@ -58,12 +58,6 @@ export const skillCategories = [
 
 export const education = [
   {
-    degree: "Master of Science in Usability Engineering",
-    school: "Hochschule Rhein Waal",
-    location: "Kamp Linfort, Germany",
-    duration: "2025 - present",
-  },
-  {
     degree: "Master of Science in Information Engineering & Computer Science",
     school: "Hochschule Rhein Waal",
     location: "Kamp Linfort, Germany",
@@ -81,28 +75,29 @@ export const education = [
 
 export const experiences = [
   {
+    title: "Frontend Developer",
+    company: "CLS Soft",
+    location: "Mannheim, Baden-Württemberg, Germany",
+    duration: "November 2022 - October 2023",
+  },
+  {
+    title: "IT Suppor",
+    company: "BA Business Advice GmbH",
+    location: "Cologne, North Rhine-Westphalia, Germany",
+    duration: "February 2022 - October 2022",
+  },
+
+  {
     title: "Junior Software Developer",
     company: "Unisoft BD Ltd.",
     location: "Dhaka, Bangladesh",
     duration: "May 2017 - Dec 2018",
-    responsibilities: [
-      "Developed and maintained web applications using React and Node.js",
-      "Collaborated with cross-functional teams to deliver high-quality software",
-      "Implemented RESTful APIs and integrated third-party services",
-      "Participated in code reviews and contributed to team knowledge sharing",
-    ],
   },
   {
     title: "Intern Software Engineer",
     company: "Unisoft BD Ltd.",
     location: "Dhaka, Bangladesh",
     duration: "Jan 2017 - April 2017",
-    responsibilities: [
-      "Assisted in developing web applications using HTML, CSS, and JavaScript",
-      "Learned best practices in software development and version control",
-      "Participated in daily stand-ups and sprint planning meetings",
-      "Contributed to documentation and testing of software features",
-    ],
   },
 ];
 
@@ -120,14 +115,21 @@ export const projects = [
     githubUrl: "https://github.com",
   },
   {
-    title: "Task Management App",
+    title: "Role-Based Dashboard",
     description:
-      "Collaborative tool with real-time updates, team collaboration, and task filtering built using Next.js and MongoDB.",
-    technologies: ["Next.js", "MongoDB", "Socket.io", "TypeScript", "Prisma"],
+      "Dynamic dashboard application with role-based access control, real-time data updates, and customizable widgets.",
+    technologies: [
+      "React",
+      "MongoDB",
+      ,
+      "JavaScript",
+      "Node.js",
+      "Authentication",
+    ],
     image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    liveUrl: "https://role-based-dashboard-phi.vercel.app/",
+    githubUrl: "https://github.com/MokabbirMisho/Role-Based-Dashboard",
   },
   {
     title: "Weather Dashboard",
@@ -140,14 +142,13 @@ export const projects = [
     githubUrl: "https://github.com",
   },
   {
-    title: "Social Media Dashboard",
+    title: "AI-Powered Chatbot",
     description:
-      "Analytics platform for social media with real-time data visualization and automated reporting.",
-    technologies: ["React", "D3.js", "Firebase", "Chart.js", "Material-UI"],
+      "Conversational AI chatbot for customer support with natural language processing and sentiment analysis.",
+    technologies: ["React", "TypeScript", "Open AI", "Bun", "shadcn/ui"],
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    githubUrl: "https://github.com/MokabbirMisho/AI-Chatbot",
   },
   {
     title: "German Housing Market Analysis & Forecasting",

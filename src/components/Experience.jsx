@@ -45,18 +45,6 @@ const Experience = () => {
                     </span>
                   </div>
                 </div>
-
-                <ul className="space-y-2">
-                  {exp.responsibilities.map((responsibility, idx) => (
-                    <li
-                      key={idx}
-                      className="text-gray-600 dark:text-gray-300 flex items-start text-sm"
-                    >
-                      <span className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 flex-shrink-0 mt-2 mr-3"></span>
-                      {responsibility}
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           </div>
