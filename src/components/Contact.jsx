@@ -27,14 +27,15 @@ const Contact = () => {
       return;
     }
 
-    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=mokabbirmisho@gmail.com&su=${encodeURIComponent(
+    const mailtoLink = `mailto:mokabbirmisho@gmail.com?subject=${encodeURIComponent(
       subject || "New Contact Message"
     )}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
 
-    window.open(gmailLink, "_blank");
+    window.location.href = mailtoLink;
 
+    // Optional: reset form
     setFormData({ name: "", email: "", subject: "", message: "" });
   };
 

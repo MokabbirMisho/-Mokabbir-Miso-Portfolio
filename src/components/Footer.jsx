@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Name and Title */}
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <h3 className="text-2xl italic mb-2">Md Mokabbir Rahman Miso</h3>
-            <p className="text-gray-400">Software Developer</p>
+            <p className="text-gray-400">Full Stack Software Developer</p>
           </div>
 
           {/* Social Icons */}
