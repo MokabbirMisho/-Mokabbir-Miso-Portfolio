@@ -17,29 +17,33 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
 
-    if (!formData.name || !formData.email || !formData.message) {
+    const { name, email, subject, message } = formData;
+
+    if (!name || !email || !message) {
       alert("Please fill in all required fields.");
-      setIsSubmitting(false);
       return;
     }
 
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=mokabbirmisho@gmail.com&su=${encodeURIComponent(
+      subject || "New Contact Message"
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`;
 
-    alert("Thank you! Your message has been sent.");
+    window.open(gmailLink, "_blank");
+
     setFormData({ name: "", email: "", subject: "", message: "" });
-    setIsSubmitting(false);
   };
 
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "mokabbirmiso1992@gmail.com",
-      link: "mailto:mokabbirmiso1992@gmail.com",
+      value: "mokabbirmisho@gmail.com",
+      link: "mailto:mokabbirmisho@gmail.com",
     },
     {
       icon: <Phone className="w-6 h-6" />,
