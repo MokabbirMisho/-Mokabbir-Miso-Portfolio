@@ -91,13 +91,13 @@ export const experiences = [
     title: "Junior Software Developer",
     company: "Unisoft BD Ltd.",
     location: "Dhaka, Bangladesh",
-    duration: "May 2017 - Dec 2018",
+    duration: "Feb 2017 - Dec 2018",
   },
   {
     title: "Intern Software Engineer",
     company: "Unisoft BD Ltd.",
     location: "Dhaka, Bangladesh",
-    duration: "Jan 2017 - April 2017",
+    duration: "Aug 2016 - Jan 2017",
   },
 ];
 
